@@ -133,6 +133,8 @@ The schema defines types for:
   ```bash
   OPENAI_API_KEY
 
+---
+
 🗄 Database Configuration
 
 PostgreSQL is used for persistent storage
@@ -142,6 +144,23 @@ Drizzle ORM manages:
 -Database schema
 -Migrations
 -Queries
+
+---
+
+## 🛠 Tech Stack
+
+| Component | Technology |
+|---------|-----------|
+| Frontend | React + TypeScript |
+| Backend | Node.js + Express |
+| Database | PostgreSQL |
+| ORM | Drizzle ORM |
+| AI | OpenAI API |
+| Charts | Recharts |
+| Styling | Tailwind CSS |
+| Build Tool | Vite |
+
+---
 
 📦 Installation & Setup
 
@@ -157,20 +176,28 @@ npm install
 # Run the project in development mode
 npm run dev
 
+---
+
 ⚙ Environment Variables
 
 Create a .env file in the root directory and add:
 DATABASE_URL=your_postgresql_database_url
 OPENAI_API_KEY=your_openai_api_key
 
+---
+
 🤝 Contributing
 
 Contributions are welcome!
 Feel free to open issues, suggest improvements, or submit pull requests.
 
+---
+
 📜 License
 
 This project is licensed under the MIT License.
+
+---
 
 🌾 KrishiRakshak
 
